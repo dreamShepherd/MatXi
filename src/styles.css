@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 580px) {
+  .page-title {
+    @apply block text-xl;
+  }
+
+  .page-title :first-child {
+    @apply hidden;
+  }
+}
