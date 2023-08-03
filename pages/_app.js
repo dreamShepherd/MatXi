@@ -1,7 +1,7 @@
 import * as React from "react";
 import Head from "next/head";
 import CssBaseline from "@mui/material/CssBaseline";
-import "../styles.css";
+import "../styles/styles.css";
 // import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
